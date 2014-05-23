@@ -1,0 +1,41 @@
+<style type='text/css'>
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+.text_cell_render.rendered_html {
+    font-family: "Droid Arabic Naskh", "Libre Baskerville", serif;
+    direction: rtl;
+    line-height: 1.518em;
+}
+.text_cell_render.rendered_html h1,
+.text_cell_render.rendered_html h2 {
+    text-align: center;
+}
+.text_cell_render.rendered_html h1 {
+    font-size: 2em;
+    color: #D55523;
+}
+.text_cell_render.rendered_html h2 {
+    font-size: 1.25em;
+}
+.text_cell_render.rendered_html h1 + h2 {
+    margin-bottom: 0.65em;
+}
+.text_cell_render.rendered_html p {
+    font-size: 1em;
+}
+.text_cell_render.rendered_html thead {
+    display: none;
+}
+.text_cell_render.rendered_html td[align=right] {
+    direction: ltr;
+}
+</style>
+
+<script>
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+            scale: 65
+        }
+    });
+</script>
