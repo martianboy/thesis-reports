@@ -30,6 +30,10 @@
 .text_cell_render.rendered_html td[align=right] {
     direction: ltr;
 }
+.output_area .output_png.output_subarea img {
+    display: block;
+    margin: 0 auto;
+}
 </style>
 
 <script>
