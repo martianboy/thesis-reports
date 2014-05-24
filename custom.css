@@ -41,8 +41,10 @@
         "HTML-CSS": {
             scale: 65
         },
-        Macros: {
-            given: ["\\:#1\\vert\\:", 1]
+        TeX: {
+            Macros: {
+                given: ["\\:#1\\vert\\:", 1]
+            }
         }
     });
 </script>
