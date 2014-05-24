@@ -40,6 +40,9 @@
     MathJax.Hub.Config({
         "HTML-CSS": {
             scale: 65
+        },
+        Macros: {
+            given: ["\\:#1\\vert\\:", 1]
         }
     });
 </script>
